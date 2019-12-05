@@ -1,5 +1,6 @@
 package dao;
 
+import org.springframework.core.io.Resource;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.math.BigDecimal;
@@ -8,7 +9,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import javax.annotation.Resource;
 import model.Account;
 
 public class CsvAccountDao implements AccountDao {

@@ -17,5 +17,5 @@ public class Account {
     
     public BigDecimal getBalance() {return balance;}
     
-    public Date getLastPaidON() {return lastPaidOn;}
+    public Date getLastPaidOn() {return lastPaidOn;}
 }
